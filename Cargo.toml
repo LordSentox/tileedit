@@ -1,0 +1,6 @@
+[package]
+name = "tileedit"
+version = "0.1.0"
+authors = ["Arne Dußin <arne.dussin@live.de>"]
+
+[dependencies]
