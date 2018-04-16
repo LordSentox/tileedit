@@ -5,6 +5,9 @@ extern crate piston_window;
 extern crate sdl2_window;
 extern crate sprite;
 
+mod ani_sprite;
+mod tile_layer_view;
+
 pub type DeviceTexture = Texture<gfx_device_gl::Resources>;
 
 use piston_window::*;
