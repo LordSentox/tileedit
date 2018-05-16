@@ -1,5 +1,6 @@
 #![allow(dead_code)]
 
+extern crate byteorder;
 extern crate find_folder;
 extern crate gfx_device_gl;
 extern crate graphics;
@@ -9,8 +10,10 @@ extern crate sdl2_window;
 extern crate sprite;
 
 mod ani_sprite;
+mod rect;
 mod texture_manager;
 mod tile_layer_view;
+mod tile_map;
 
 pub type DeviceTexture = Texture<gfx_device_gl::Resources>;
 pub use nalgebra::Vector2 as Vec2;
