@@ -6,6 +6,7 @@ authors = ["Arne Dußin <arne.dussin@live.de>"]
 [dependencies]
 find_folder = "*"
 gfx_device_gl = "*"
+nalgebra = "*"
 piston_window = "*"
 pistoncore-sdl2_window = "*"
 piston2d-sprite = "*"
